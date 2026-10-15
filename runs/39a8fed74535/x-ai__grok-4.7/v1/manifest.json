@@ -1,0 +1,14 @@
+{
+  "model_requested": "x-ai/grok-4.7",
+  "pool_path": "pool-twins-block.jsonl",
+  "pool_sha256": "39a8fed74535e8e308bf44650d3c94d5abbb478cefd5b638a8df01b56f472ac1",
+  "prompt_version": "v1",
+  "temperature": 0.0,
+  "subject_max_tokens": 60000,
+  "conditions": [
+    "neutral_conf"
+  ],
+  "started_at": "2026-10-15T23:10:54.170285+00:00",
+  "model_returned": "x-ai/grok-4.7",
+  "updated_at": "2026-10-15T23:13:12.767375+00:00"
+}

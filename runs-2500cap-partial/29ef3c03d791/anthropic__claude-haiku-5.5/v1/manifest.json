@@ -1,0 +1,14 @@
+{
+  "model_requested": "anthropic/claude-haiku-5.5",
+  "pool_path": "/home/hatch/workspace/epistemic-calibration-bench/seed_questions.jsonl",
+  "pool_sha256": "29ef3c03d791dd72f4593aed236b4c50ca9b1e798772a7ac126e5240c9da45fe",
+  "prompt_version": "v1",
+  "temperature": 0.0,
+  "subject_max_tokens": 2500,
+  "conditions": [
+    "neutral_conf"
+  ],
+  "started_at": "2026-10-15T18:28:49.430266+00:00",
+  "model_returned": "anthropic/claude-haiku-5.5",
+  "updated_at": "2026-10-15T18:29:58.072438+00:00"
+}

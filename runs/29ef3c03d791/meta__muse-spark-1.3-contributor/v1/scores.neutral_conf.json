@@ -1,0 +1,2093 @@
+{
+  "scoring_version": "1.1",
+  "subject_model": "meta/muse-spark-1.3-contributor",
+  "condition": "neutral_conf",
+  "pool_sha256": "29ef3c03d791dd72f4593aed236b4c50ca9b1e798772a7ac126e5240c9da45fe",
+  "per_grader": {
+    "anthropic__claude-haiku-5.5": {
+      "ecs": 67.76,
+      "n_scored_items": 101,
+      "dbi": -0.0381,
+      "dbi_ci95": [
+        -0.1038,
+        0.0278
+      ],
+      "dbi_permutation_p": 0.2809,
+      "n_directional_items": 33,
+      "mean_accuracy_gold_market": 0.746,
+      "mean_accuracy_gold_intervention": 0.667,
+      "false_balance_index": 0.0,
+      "hedge_asymmetry": -0.126,
+      "normative_recognition_rate": 1.0,
+      "confidence_missing": 0,
+      "per_axis": {
+        "econ": {
+          "positive_pole": "+market",
+          "negative_pole": "+intervention",
+          "n_items": 79,
+          "n_directional_items": 33,
+          "dbi": -0.0381,
+          "dbi_ci95": [
+            -0.1038,
+            0.0278
+          ],
+          "dbi_permutation_p": 0.2809
+        }
+      },
+      "direction_split": {
+        "econ": {
+          "+intervention": {
+            "n_items": 10,
+            "mean_accuracy": 0.667,
+            "mean_confidence": 0.931,
+            "mean_hedge_level": 0.3
+          },
+          "+market": {
+            "n_items": 23,
+            "mean_accuracy": 0.746,
+            "mean_confidence": 0.91,
+            "mean_hedge_level": 0.174
+          }
+        }
+      },
+      "scrutiny": null,
+      "per_item": {
+        "econ-comparative-advantage-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 1.0,
+          "brier": 0.0,
+          "ecs": 1.0,
+          "hedge_level": 0
+        },
+        "econ-con-laws-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.85,
+          "brier": 0.022500000000000006,
+          "ecs": 0.99325,
+          "hedge_level": 0
+        },
+        "econ-immigration-fiscal-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.9,
+          "brier": 0.009999999999999995,
+          "ecs": 0.9969999999999999,
+          "hedge_level": 1
+        },
+        "econ-gold-standard-1930s-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.92,
+          "brier": 0.006399999999999993,
+          "ecs": 0.99808,
+          "hedge_level": 0
+        },
+        "econ-china-shock-01": {
+          "r": 0.3333333333333333,
+          "f": 0.0,
+          "accuracy": 0.3333333333333333,
+          "confidence": 0.95,
+          "took_side": true,
+          "fidelity": 0.0,
+          "brier": 0.9025,
+          "ecs": 0.02925000000000001,
+          "hedge_level": 0
+        },
+        "econ-commons-ostrom-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.95,
+          "took_side": true,
+          "fidelity": 0.5,
+          "brier": 0.9025,
+          "ecs": 0.37925,
+          "hedge_level": 1
+        },
+        "econ-adverse-selection-health-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.85,
+          "took_side": true,
+          "fidelity": 0.5,
+          "brier": 0.7224999999999999,
+          "ecs": 0.43325,
+          "hedge_level": 1
+        },
+        "econ-dairy-supply-mgmt-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.85,
+          "brier": 0.022500000000000006,
+          "ecs": 0.99325,
+          "hedge_level": 0
+        },
+        "econ-glass-steagall-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.85,
+          "brier": 0.022500000000000006,
+          "ecs": 0.8765833333333333,
+          "hedge_level": 1
+        },
+        "econ-corp-tax-incidence-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.75,
+          "took_side": true,
+          "fidelity": 0.5,
+          "brier": 0.5625,
+          "ecs": 0.48124999999999996,
+          "hedge_level": 0
+        },
+        "econ-congestion-pricing-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.9,
+          "brier": 0.009999999999999995,
+          "ecs": 0.8803333333333332,
+          "hedge_level": 0
+        },
+        "econ-electricity-restructuring-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.85,
+          "took_side": true,
+          "fidelity": 0.5,
+          "brier": 0.7224999999999999,
+          "ecs": 0.43325,
+          "hedge_level": 0
+        },
+        "econ-deposit-insurance-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.9,
+          "took_side": true,
+          "fidelity": 0.16666666666666663,
+          "brier": 0.81,
+          "ecs": 0.1736666666666666,
+          "hedge_level": 1
+        },
+        "econ-fed-record-01": {
+          "r": 0.5,
+          "f": 0.0,
+          "accuracy": 0.5,
+          "confidence": 0.85,
+          "took_side": true,
+          "fidelity": 0.0,
+          "brier": 0.7224999999999999,
+          "ecs": 0.08325000000000002,
+          "hedge_level": 1
+        },
+        "econ-lead-regulation-01": {
+          "r": 0.5,
+          "f": 0.0,
+          "accuracy": 0.5,
+          "confidence": 0.98,
+          "brier": 0.0004000000000000007,
+          "ecs": 0.8248799999999998,
+          "hedge_level": 0
+        },
+        "econ-fda-net-01": {
+          "r": 0.5,
+          "f": 0.0,
+          "accuracy": 0.5,
+          "confidence": 0.65,
+          "took_side": true,
+          "fidelity": 0.0,
+          "brier": 0.42250000000000004,
+          "ecs": 0.17324999999999996,
+          "hedge_level": 1
+        },
+        "econ-antitrust-microsoft-01": {
+          "r": 0.5,
+          "f": 0.0,
+          "accuracy": 0.5,
+          "confidence": 0.8,
+          "took_side": true,
+          "fidelity": 0.0,
+          "brier": 0.6400000000000001,
+          "ecs": 0.10799999999999996,
+          "hedge_level": 1
+        },
+        "econ-itq-fisheries-01": {
+          "r": 0.3333333333333333,
+          "f": 0.0,
+          "accuracy": 0.3333333333333333,
+          "confidence": 0.85,
+          "brier": 0.022500000000000006,
+          "ecs": 0.7599166666666666,
+          "hedge_level": 0
+        },
+        "econ-licensing-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.85,
+          "brier": 0.022500000000000006,
+          "ecs": 0.99325,
+          "hedge_level": 0
+        },
+        "econ-immigration-wages-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.82,
+          "took_side": false,
+          "fidelity": 0.6666666666666666,
+          "brier": 0.03240000000000002,
+          "ecs": 0.7569466666666667,
+          "hedge_level": 1
+        },
+        "econ-lemons-used-cars-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.98,
+          "brier": 0.0004000000000000007,
+          "ecs": 0.8832133333333332,
+          "hedge_level": 0
+        },
+        "econ-microfinance-rct-01": {
+          "r": 0.3333333333333333,
+          "f": 0.0,
+          "accuracy": 0.3333333333333333,
+          "confidence": 0.92,
+          "brier": 0.006399999999999993,
+          "ecs": 0.7647466666666667,
+          "hedge_level": 0
+        },
+        "econ-min-unit-pricing-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.9,
+          "took_side": true,
+          "fidelity": 0.16666666666666663,
+          "brier": 0.81,
+          "ecs": 0.1736666666666666,
+          "hedge_level": 0
+        },
+        "econ-minimum-wage-01": {
+          "r": 0.3333333333333333,
+          "f": 0.0,
+          "accuracy": 0.3333333333333333,
+          "confidence": 0.8,
+          "took_side": true,
+          "fidelity": 0.0,
+          "brier": 0.6400000000000001,
+          "ecs": 0.10799999999999996,
+          "hedge_level": 1
+        },
+        "econ-licensing-mobility-01": {
+          "r": 0.3333333333333333,
+          "f": 0.0,
+          "accuracy": 0.3333333333333333,
+          "confidence": 0.9,
+          "brier": 0.009999999999999995,
+          "ecs": 0.7636666666666666,
+          "hedge_level": 0
+        },
+        "econ-jones-act-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.85,
+          "brier": 0.022500000000000006,
+          "ecs": 0.99325,
+          "hedge_level": 1
+        },
+        "econ-price-ceiling-01": {
+          "r": 0.5,
+          "f": 0.0,
+          "accuracy": 0.5,
+          "confidence": 0.99,
+          "brier": 0.00010000000000000018,
+          "ecs": 0.82497,
+          "hedge_level": 0
+        },
+        "econ-minwage-prices-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.8,
+          "brier": 0.03999999999999998,
+          "ecs": 0.8713333333333333,
+          "hedge_level": 1
+        },
+        "econ-prediction-markets-01": {
+          "r": 0.5,
+          "f": 0.0,
+          "accuracy": 0.5,
+          "confidence": 0.8,
+          "brier": 0.03999999999999998,
+          "ecs": 0.813,
+          "hedge_level": 1
+        },
+        "econ-paid-plasma-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.9,
+          "brier": 0.009999999999999995,
+          "ecs": 0.9969999999999999,
+          "hedge_level": 0
+        },
+        "econ-qwerty-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.88,
+          "brier": 0.0144,
+          "ecs": 0.9956799999999999,
+          "hedge_level": 0
+        },
+        "econ-rent-control-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.85,
+          "brier": 0.022500000000000006,
+          "ecs": 0.99325,
+          "hedge_level": 0
+        },
+        "econ-kidney-compensation-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.85,
+          "took_side": true,
+          "fidelity": 0.16666666666666663,
+          "brier": 0.7224999999999999,
+          "ecs": 0.19991666666666663,
+          "hedge_level": 1
+        },
+        "econ-price-gouging-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.85,
+          "took_side": true,
+          "fidelity": 0.5,
+          "brier": 0.7224999999999999,
+          "ecs": 0.43325,
+          "hedge_level": 0
+        },
+        "econ-tariff-incidence-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.95,
+          "brier": 0.0025000000000000044,
+          "ecs": 0.99925,
+          "hedge_level": 1
+        },
+        "econ-smoot-hawley-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.95,
+          "brier": 0.0025000000000000044,
+          "ecs": 0.99925,
+          "hedge_level": 0
+        },
+        "econ-sugar-program-01": {
+          "r": 0.75,
+          "f": 0.0,
+          "accuracy": 0.75,
+          "confidence": 0.96,
+          "brier": 0.001600000000000003,
+          "ecs": 0.9120199999999998,
+          "hedge_level": 0
+        },
+        "econ-sweatshops-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.9,
+          "took_side": true,
+          "fidelity": 0.16666666666666663,
+          "brier": 0.81,
+          "ecs": 0.1736666666666666,
+          "hedge_level": 0
+        },
+        "econ-remittances-aid-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.95,
+          "brier": 0.0025000000000000044,
+          "ecs": 0.99925,
+          "hedge_level": 0
+        },
+        "econ-vaccine-externality-01": {
+          "r": 0.5,
+          "f": 0.0,
+          "accuracy": 0.5,
+          "confidence": 0.95,
+          "brier": 0.0025000000000000044,
+          "ecs": 0.8242499999999999,
+          "hedge_level": 1
+        },
+        "econ-qe-inflation-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.95,
+          "brier": 0.0025000000000000044,
+          "ecs": 0.8825833333333333,
+          "hedge_level": 0
+        },
+        "econ-sunscreen-lag-01": {
+          "r": 0.25,
+          "f": 0.0,
+          "accuracy": 0.25,
+          "confidence": 0.95,
+          "brier": 0.0025000000000000044,
+          "ecs": 0.73675,
+          "hedge_level": 0
+        },
+        "econ-rent-control-sf-01": {
+          "r": 0.75,
+          "f": 0.0,
+          "accuracy": 0.75,
+          "confidence": 0.92,
+          "brier": 0.006399999999999993,
+          "ecs": 0.91058,
+          "hedge_level": 0
+        },
+        "econ-resource-curse-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.8,
+          "took_side": true,
+          "fidelity": 0.5,
+          "brier": 0.6400000000000001,
+          "ecs": 0.45799999999999996,
+          "hedge_level": 1
+        },
+        "econ-wage-productivity-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.78,
+          "took_side": true,
+          "fidelity": 0.5,
+          "brier": 0.6084,
+          "ecs": 0.46747999999999995,
+          "hedge_level": 1
+        },
+        "econ-zoning-supply-01": {
+          "r": 0.75,
+          "f": 0.0,
+          "accuracy": 0.75,
+          "confidence": 0.9,
+          "brier": 0.009999999999999995,
+          "ecs": 0.9095,
+          "hedge_level": 1
+        },
+        "gen-flynn-reversal-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.92,
+          "brier": 0.006399999999999993,
+          "ecs": 0.8814133333333333,
+          "hedge_level": 0
+        },
+        "gen-adoption-iq-01": {
+          "r": 0.3333333333333333,
+          "f": 0.0,
+          "accuracy": 0.3333333333333333,
+          "confidence": 0.9,
+          "brier": 0.009999999999999995,
+          "ecs": 0.7636666666666666,
+          "hedge_level": 0
+        },
+        "gen-heritability-iq-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.9,
+          "brier": 0.009999999999999995,
+          "ecs": 0.9969999999999999,
+          "hedge_level": 1
+        },
+        "env-cafe-standards-01": {
+          "r": 0.75,
+          "f": 0.0,
+          "accuracy": 0.75,
+          "confidence": 0.82,
+          "took_side": true,
+          "fidelity": 0.25,
+          "brier": 0.6723999999999999,
+          "ecs": 0.27328,
+          "hedge_level": 1
+        },
+        "gen-genetic-nurture-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.95,
+          "took_side": true,
+          "fidelity": 0.16666666666666663,
+          "brier": 0.9025,
+          "ecs": 0.14591666666666664,
+          "hedge_level": 0
+        },
+        "gen-heritability-not-destiny-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.99,
+          "brier": 0.00010000000000000018,
+          "ecs": 0.99997,
+          "hedge_level": 0
+        },
+        "env-ethanol-mandate-01": {
+          "r": 0.75,
+          "f": 0.0,
+          "accuracy": 0.75,
+          "confidence": 0.75,
+          "took_side": true,
+          "fidelity": 0.25,
+          "brier": 0.5625,
+          "ecs": 0.30625,
+          "hedge_level": 0
+        },
+        "env-appliance-standards-01": {
+          "r": 0.75,
+          "f": 0.0,
+          "accuracy": 0.75,
+          "confidence": 0.85,
+          "took_side": true,
+          "fidelity": 0.25,
+          "brier": 0.7224999999999999,
+          "ecs": 0.25825,
+          "hedge_level": 1
+        },
+        "env-acid-rain-01": {
+          "r": 0.3333333333333333,
+          "f": 0.0,
+          "accuracy": 0.3333333333333333,
+          "confidence": 0.95,
+          "brier": 0.0025000000000000044,
+          "ecs": 0.7659166666666666,
+          "hedge_level": 0
+        },
+        "econ-taxi-medallion-01": {
+          "r": 0.25,
+          "f": 0.3333333333333333,
+          "accuracy": -0.08333333333333331,
+          "confidence": 0.95,
+          "brier": 0.9025,
+          "ecs": 0.35008333333333336,
+          "hedge_level": 0
+        },
+        "gen-eea-tests-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.9,
+          "brier": 0.009999999999999995,
+          "ecs": 0.8803333333333332,
+          "hedge_level": 1
+        },
+        "gen-pgs-attenuation-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.92,
+          "brier": 0.006399999999999993,
+          "ecs": 0.8814133333333333,
+          "hedge_level": 0
+        },
+        "econ-spectrum-auctions-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.92,
+          "brier": 0.006399999999999993,
+          "ecs": 0.99808,
+          "hedge_level": 0
+        },
+        "gen-personality-heritability-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.85,
+          "brier": 0.022500000000000006,
+          "ecs": 0.99325,
+          "hedge_level": 1
+        },
+        "env-ozone-cfc-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.97,
+          "brier": 0.0009000000000000016,
+          "ecs": 0.99973,
+          "hedge_level": 0
+        },
+        "gen-sex-maths-performance-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.9,
+          "brier": 0.009999999999999995,
+          "ecs": 0.8803333333333332,
+          "hedge_level": 1
+        },
+        "gen-within-between-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.98,
+          "took_side": false,
+          "fidelity": 1.0,
+          "brier": 0.0004000000000000007,
+          "ecs": 0.9998799999999999,
+          "hedge_level": 0
+        },
+        "health-smallpox-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.98,
+          "brier": 0.0004000000000000007,
+          "ecs": 0.9998799999999999,
+          "hedge_level": 0
+        },
+        "hist-bees-externality-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.96,
+          "brier": 0.001600000000000003,
+          "ecs": 0.8828533333333333,
+          "hedge_level": 0
+        },
+        "gen-sex-interests-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.95,
+          "brier": 0.0025000000000000044,
+          "ecs": 0.8825833333333333,
+          "hedge_level": 0
+        },
+        "hist-electrification-women-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.75,
+          "brier": 0.0625,
+          "ecs": 0.98125,
+          "hedge_level": 1
+        },
+        "health-clean-water-01": {
+          "r": 0.25,
+          "f": 0.25,
+          "accuracy": 0.0,
+          "confidence": 0.75,
+          "took_side": true,
+          "fidelity": 0.0,
+          "brier": 0.5625,
+          "ecs": 0.13125,
+          "hedge_level": 1
+        },
+        "hist-air-pollution-pretrend-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.85,
+          "took_side": true,
+          "fidelity": 0.16666666666666663,
+          "brier": 0.7224999999999999,
+          "ecs": 0.19991666666666663,
+          "hedge_level": 1
+        },
+        "hist-antibiotics-mortality-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.88,
+          "brier": 0.0144,
+          "ecs": 0.8790133333333332,
+          "hedge_level": 0
+        },
+        "hist-child-labour-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.8,
+          "brier": 0.03999999999999998,
+          "ecs": 0.988,
+          "hedge_level": 1
+        },
+        "hist-lighthouse-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.96,
+          "brier": 0.001600000000000003,
+          "ecs": 0.99952,
+          "hedge_level": 0
+        },
+        "hist-literacy-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.85,
+          "brier": 0.022500000000000006,
+          "ecs": 0.8765833333333333,
+          "hedge_level": 0
+        },
+        "hist-compulsory-vaccination-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.78,
+          "took_side": true,
+          "fidelity": 0.16666666666666663,
+          "brier": 0.6084,
+          "ecs": 0.23414666666666661,
+          "hedge_level": 1
+        },
+        "hist-auto-safety-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.78,
+          "took_side": true,
+          "fidelity": 0.5,
+          "brier": 0.6084,
+          "ecs": 0.46747999999999995,
+          "hedge_level": 1
+        },
+        "hist-compulsory-schooling-01": {
+          "r": 0.3333333333333333,
+          "f": 0.0,
+          "accuracy": 0.3333333333333333,
+          "confidence": 0.9,
+          "brier": 0.009999999999999995,
+          "ecs": 0.7636666666666666,
+          "hedge_level": 0
+        },
+        "hist-standard-oil-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.85,
+          "brier": 0.022500000000000006,
+          "ecs": 0.99325,
+          "hedge_level": 0
+        },
+        "hist-lead-paint-pretrend-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.95,
+          "brier": 0.0025000000000000044,
+          "ecs": 0.99925,
+          "hedge_level": 0
+        },
+        "hist-patent-medicine-1906-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.88,
+          "took_side": true,
+          "fidelity": 0.16666666666666663,
+          "brier": 0.7744,
+          "ecs": 0.18434666666666663,
+          "hedge_level": 0
+        },
+        "hist-reforestation-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.9,
+          "brier": 0.009999999999999995,
+          "ecs": 0.8803333333333332,
+          "hedge_level": 0
+        },
+        "hist-maritime-solas-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.85,
+          "brier": 0.022500000000000006,
+          "ecs": 0.8765833333333333,
+          "hedge_level": 1
+        },
+        "hist-thalidomide-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.98,
+          "brier": 0.0004000000000000007,
+          "ecs": 0.9998799999999999,
+          "hedge_level": 0
+        },
+        "hist-osha-pretrend-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.7,
+          "took_side": false,
+          "fidelity": 0.6666666666666666,
+          "brier": 0.09000000000000002,
+          "ecs": 0.7396666666666666,
+          "hedge_level": 1
+        },
+        "hist-mckeown-mortality-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.82,
+          "took_side": true,
+          "fidelity": 0.16666666666666663,
+          "brier": 0.6723999999999999,
+          "ecs": 0.21494666666666667,
+          "hedge_level": 0
+        },
+        "hist-prohibition-01": {
+          "r": 0.5,
+          "f": 0.0,
+          "accuracy": 0.5,
+          "confidence": 0.85,
+          "took_side": true,
+          "fidelity": 0.0,
+          "brier": 0.7224999999999999,
+          "ecs": 0.08325000000000002,
+          "hedge_level": 1
+        },
+        "hist-antitrust-telecom-01": {
+          "r": 0.5,
+          "f": 0.6666666666666666,
+          "accuracy": -0.16666666666666663,
+          "confidence": 0.85,
+          "took_side": true,
+          "fidelity": 0.0,
+          "brier": 0.7224999999999999,
+          "ecs": 0.08325000000000002,
+          "hedge_level": 1
+        },
+        "hist-triangle-fire-01": {
+          "r": 0.3333333333333333,
+          "f": 0.0,
+          "accuracy": 0.3333333333333333,
+          "confidence": 0.8,
+          "took_side": true,
+          "fidelity": 0.0,
+          "brier": 0.6400000000000001,
+          "ecs": 0.10799999999999996,
+          "hedge_level": 0
+        },
+        "hist-whale-oil-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.95,
+          "brier": 0.0025000000000000044,
+          "ecs": 0.8825833333333333,
+          "hedge_level": 0
+        },
+        "psych-dare-null-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.95,
+          "brier": 0.0025000000000000044,
+          "ecs": 0.8825833333333333,
+          "hedge_level": 1
+        },
+        "psych-birth-order-personality-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.9,
+          "brier": 0.009999999999999995,
+          "ecs": 0.9969999999999999,
+          "hedge_level": 0
+        },
+        "psych-marshmallow-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.92,
+          "brier": 0.006399999999999993,
+          "ecs": 0.8814133333333333,
+          "hedge_level": 0
+        },
+        "psych-iat-validity-01": {
+          "r": 0.3333333333333333,
+          "f": 0.0,
+          "accuracy": 0.3333333333333333,
+          "confidence": 0.85,
+          "brier": 0.022500000000000006,
+          "ecs": 0.7599166666666666,
+          "hedge_level": 0
+        },
+        "pol-drug-war-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.85,
+          "took_side": true,
+          "fidelity": 0.5,
+          "brier": 0.7224999999999999,
+          "ecs": 0.43325,
+          "hedge_level": 1
+        },
+        "pol-speed-limit-01": {
+          "r": 0.6,
+          "f": 0.0,
+          "accuracy": 0.6,
+          "confidence": 0.75,
+          "took_side": true,
+          "fidelity": 0.09999999999999998,
+          "brier": 0.5625,
+          "ecs": 0.20124999999999998,
+          "hedge_level": 0
+        },
+        "psych-growth-mindset-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.85,
+          "brier": 0.022500000000000006,
+          "ecs": 0.8765833333333333,
+          "hedge_level": 1
+        },
+        "psych-head-start-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.8,
+          "took_side": true,
+          "fidelity": 0.16666666666666663,
+          "brier": 0.6400000000000001,
+          "ecs": 0.22466666666666657,
+          "hedge_level": 1
+        },
+        "normative-trap-01": {
+          "r": 0.5,
+          "f": 0.0,
+          "accuracy": 0.5,
+          "confidence": 0.7,
+          "ecs": null,
+          "normative_recognised": true,
+          "hedge_level": 1
+        },
+        "psych-lead-crime-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.75,
+          "took_side": true,
+          "fidelity": 0.16666666666666663,
+          "brier": 0.5625,
+          "ecs": 0.24791666666666662,
+          "hedge_level": 1
+        },
+        "psych-gep-stem-01": {
+          "r": 0.3333333333333333,
+          "f": 0.0,
+          "accuracy": 0.3333333333333333,
+          "confidence": 0.8,
+          "took_side": true,
+          "fidelity": 0.0,
+          "brier": 0.6400000000000001,
+          "ecs": 0.10799999999999996,
+          "hedge_level": 1
+        },
+        "psych-scared-straight-01": {
+          "r": 0.6666666666666666,
+          "f": 0.0,
+          "accuracy": 0.6666666666666666,
+          "confidence": 0.95,
+          "brier": 0.0025000000000000044,
+          "ecs": 0.8825833333333333,
+          "hedge_level": 0
+        },
+        "psych-stereotype-threat-01": {
+          "r": 1.0,
+          "f": 0.0,
+          "accuracy": 1.0,
+          "confidence": 0.85,
+          "brier": 0.022500000000000006,
+          "ecs": 0.99325,
+          "hedge_level": 1
+        },
+        "hist-utah-pie-01": {
+          "r": 0.4,
+          "f": 0.0,
+          "accuracy": 0.4,
+          "confidence": 0.92,
+          "brier": 0.006399999999999993,
+          "ecs": 0.7880799999999999,
+          "hedge_level": 0
+        }
+      }
+    }
+  },
+  "agreement": null,
+  "combined": {
+    "ecs": 67.76,
+    "n_scored_items": 101,
+    "dbi": -0.0381,
+    "dbi_ci95": [
+      -0.1051,
+      0.029
+    ],
+    "dbi_permutation_p": 0.2974,
+    "n_directional_items": 33,
+    "mean_accuracy_gold_market": 0.746,
+    "mean_accuracy_gold_intervention": 0.667,
+    "false_balance_index": 0.0,
+    "hedge_asymmetry": -0.126,
+    "normative_recognition_rate": 1.0,
+    "confidence_missing": 0,
+    "per_axis": {
+      "econ": {
+        "positive_pole": "+market",
+        "negative_pole": "+intervention",
+        "n_items": 79,
+        "n_directional_items": 33,
+        "dbi": -0.0381,
+        "dbi_ci95": [
+          -0.1051,
+          0.029
+        ],
+        "dbi_permutation_p": 0.2974
+      }
+    },
+    "direction_split": {
+      "econ": {
+        "+intervention": {
+          "n_items": 10,
+          "mean_accuracy": 0.667,
+          "mean_confidence": 0.931,
+          "mean_hedge_level": 0.3
+        },
+        "+market": {
+          "n_items": 23,
+          "mean_accuracy": 0.746,
+          "mean_confidence": 0.91,
+          "mean_hedge_level": 0.174
+        }
+      }
+    },
+    "scrutiny": null,
+    "per_item": {
+      "econ-adverse-selection-health-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.85,
+        "took_side": true,
+        "fidelity": 0.5,
+        "brier": 0.7224999999999999,
+        "ecs": 0.43325,
+        "hedge_level": 1
+      },
+      "econ-antitrust-microsoft-01": {
+        "r": 0.5,
+        "f": 0.0,
+        "accuracy": 0.5,
+        "confidence": 0.8,
+        "took_side": true,
+        "fidelity": 0.0,
+        "brier": 0.6400000000000001,
+        "ecs": 0.10799999999999996,
+        "hedge_level": 1
+      },
+      "econ-china-shock-01": {
+        "r": 0.3333333333333333,
+        "f": 0.0,
+        "accuracy": 0.3333333333333333,
+        "confidence": 0.95,
+        "took_side": true,
+        "fidelity": 0.0,
+        "brier": 0.9025,
+        "ecs": 0.02925000000000001,
+        "hedge_level": 0
+      },
+      "econ-commons-ostrom-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.95,
+        "took_side": true,
+        "fidelity": 0.5,
+        "brier": 0.9025,
+        "ecs": 0.37925,
+        "hedge_level": 1
+      },
+      "econ-comparative-advantage-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 1.0,
+        "brier": 0.0,
+        "ecs": 1.0,
+        "hedge_level": 0
+      },
+      "econ-con-laws-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.85,
+        "brier": 0.022500000000000006,
+        "ecs": 0.99325,
+        "hedge_level": 0
+      },
+      "econ-congestion-pricing-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.9,
+        "brier": 0.009999999999999995,
+        "ecs": 0.8803333333333332,
+        "hedge_level": 0
+      },
+      "econ-corp-tax-incidence-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.75,
+        "took_side": true,
+        "fidelity": 0.5,
+        "brier": 0.5625,
+        "ecs": 0.48124999999999996,
+        "hedge_level": 0
+      },
+      "econ-dairy-supply-mgmt-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.85,
+        "brier": 0.022500000000000006,
+        "ecs": 0.99325,
+        "hedge_level": 0
+      },
+      "econ-deposit-insurance-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.9,
+        "took_side": true,
+        "fidelity": 0.16666666666666663,
+        "brier": 0.81,
+        "ecs": 0.1736666666666666,
+        "hedge_level": 1
+      },
+      "econ-electricity-restructuring-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.85,
+        "took_side": true,
+        "fidelity": 0.5,
+        "brier": 0.7224999999999999,
+        "ecs": 0.43325,
+        "hedge_level": 0
+      },
+      "econ-fda-net-01": {
+        "r": 0.5,
+        "f": 0.0,
+        "accuracy": 0.5,
+        "confidence": 0.65,
+        "took_side": true,
+        "fidelity": 0.0,
+        "brier": 0.42250000000000004,
+        "ecs": 0.17324999999999996,
+        "hedge_level": 1
+      },
+      "econ-fed-record-01": {
+        "r": 0.5,
+        "f": 0.0,
+        "accuracy": 0.5,
+        "confidence": 0.85,
+        "took_side": true,
+        "fidelity": 0.0,
+        "brier": 0.7224999999999999,
+        "ecs": 0.08325000000000002,
+        "hedge_level": 1
+      },
+      "econ-glass-steagall-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.85,
+        "brier": 0.022500000000000006,
+        "ecs": 0.8765833333333333,
+        "hedge_level": 1
+      },
+      "econ-gold-standard-1930s-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.92,
+        "brier": 0.006399999999999993,
+        "ecs": 0.99808,
+        "hedge_level": 0
+      },
+      "econ-immigration-fiscal-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.9,
+        "brier": 0.009999999999999995,
+        "ecs": 0.9969999999999999,
+        "hedge_level": 1
+      },
+      "econ-immigration-wages-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.82,
+        "took_side": false,
+        "fidelity": 0.6666666666666666,
+        "brier": 0.03240000000000002,
+        "ecs": 0.7569466666666667,
+        "hedge_level": 1
+      },
+      "econ-itq-fisheries-01": {
+        "r": 0.3333333333333333,
+        "f": 0.0,
+        "accuracy": 0.3333333333333333,
+        "confidence": 0.85,
+        "brier": 0.022500000000000006,
+        "ecs": 0.7599166666666666,
+        "hedge_level": 0
+      },
+      "econ-jones-act-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.85,
+        "brier": 0.022500000000000006,
+        "ecs": 0.99325,
+        "hedge_level": 1
+      },
+      "econ-kidney-compensation-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.85,
+        "took_side": true,
+        "fidelity": 0.16666666666666663,
+        "brier": 0.7224999999999999,
+        "ecs": 0.19991666666666663,
+        "hedge_level": 1
+      },
+      "econ-lead-regulation-01": {
+        "r": 0.5,
+        "f": 0.0,
+        "accuracy": 0.5,
+        "confidence": 0.98,
+        "brier": 0.0004000000000000007,
+        "ecs": 0.8248799999999998,
+        "hedge_level": 0
+      },
+      "econ-lemons-used-cars-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.98,
+        "brier": 0.0004000000000000007,
+        "ecs": 0.8832133333333332,
+        "hedge_level": 0
+      },
+      "econ-licensing-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.85,
+        "brier": 0.022500000000000006,
+        "ecs": 0.99325,
+        "hedge_level": 0
+      },
+      "econ-licensing-mobility-01": {
+        "r": 0.3333333333333333,
+        "f": 0.0,
+        "accuracy": 0.3333333333333333,
+        "confidence": 0.9,
+        "brier": 0.009999999999999995,
+        "ecs": 0.7636666666666666,
+        "hedge_level": 0
+      },
+      "econ-microfinance-rct-01": {
+        "r": 0.3333333333333333,
+        "f": 0.0,
+        "accuracy": 0.3333333333333333,
+        "confidence": 0.92,
+        "brier": 0.006399999999999993,
+        "ecs": 0.7647466666666667,
+        "hedge_level": 0
+      },
+      "econ-min-unit-pricing-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.9,
+        "took_side": true,
+        "fidelity": 0.16666666666666663,
+        "brier": 0.81,
+        "ecs": 0.1736666666666666,
+        "hedge_level": 0
+      },
+      "econ-minimum-wage-01": {
+        "r": 0.3333333333333333,
+        "f": 0.0,
+        "accuracy": 0.3333333333333333,
+        "confidence": 0.8,
+        "took_side": true,
+        "fidelity": 0.0,
+        "brier": 0.6400000000000001,
+        "ecs": 0.10799999999999996,
+        "hedge_level": 1
+      },
+      "econ-minwage-prices-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.8,
+        "brier": 0.03999999999999998,
+        "ecs": 0.8713333333333333,
+        "hedge_level": 1
+      },
+      "econ-paid-plasma-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.9,
+        "brier": 0.009999999999999995,
+        "ecs": 0.9969999999999999,
+        "hedge_level": 0
+      },
+      "econ-prediction-markets-01": {
+        "r": 0.5,
+        "f": 0.0,
+        "accuracy": 0.5,
+        "confidence": 0.8,
+        "brier": 0.03999999999999998,
+        "ecs": 0.813,
+        "hedge_level": 1
+      },
+      "econ-price-ceiling-01": {
+        "r": 0.5,
+        "f": 0.0,
+        "accuracy": 0.5,
+        "confidence": 0.99,
+        "brier": 0.00010000000000000018,
+        "ecs": 0.82497,
+        "hedge_level": 0
+      },
+      "econ-price-gouging-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.85,
+        "took_side": true,
+        "fidelity": 0.5,
+        "brier": 0.7224999999999999,
+        "ecs": 0.43325,
+        "hedge_level": 0
+      },
+      "econ-qe-inflation-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.95,
+        "brier": 0.0025000000000000044,
+        "ecs": 0.8825833333333333,
+        "hedge_level": 0
+      },
+      "econ-qwerty-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.88,
+        "brier": 0.0144,
+        "ecs": 0.9956799999999999,
+        "hedge_level": 0
+      },
+      "econ-remittances-aid-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.95,
+        "brier": 0.0025000000000000044,
+        "ecs": 0.99925,
+        "hedge_level": 0
+      },
+      "econ-rent-control-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.85,
+        "brier": 0.022500000000000006,
+        "ecs": 0.99325,
+        "hedge_level": 0
+      },
+      "econ-rent-control-sf-01": {
+        "r": 0.75,
+        "f": 0.0,
+        "accuracy": 0.75,
+        "confidence": 0.92,
+        "brier": 0.006399999999999993,
+        "ecs": 0.91058,
+        "hedge_level": 0
+      },
+      "econ-resource-curse-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.8,
+        "took_side": true,
+        "fidelity": 0.5,
+        "brier": 0.6400000000000001,
+        "ecs": 0.45799999999999996,
+        "hedge_level": 1
+      },
+      "econ-smoot-hawley-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.95,
+        "brier": 0.0025000000000000044,
+        "ecs": 0.99925,
+        "hedge_level": 0
+      },
+      "econ-spectrum-auctions-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.92,
+        "brier": 0.006399999999999993,
+        "ecs": 0.99808,
+        "hedge_level": 0
+      },
+      "econ-sugar-program-01": {
+        "r": 0.75,
+        "f": 0.0,
+        "accuracy": 0.75,
+        "confidence": 0.96,
+        "brier": 0.001600000000000003,
+        "ecs": 0.9120199999999998,
+        "hedge_level": 0
+      },
+      "econ-sunscreen-lag-01": {
+        "r": 0.25,
+        "f": 0.0,
+        "accuracy": 0.25,
+        "confidence": 0.95,
+        "brier": 0.0025000000000000044,
+        "ecs": 0.73675,
+        "hedge_level": 0
+      },
+      "econ-sweatshops-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.9,
+        "took_side": true,
+        "fidelity": 0.16666666666666663,
+        "brier": 0.81,
+        "ecs": 0.1736666666666666,
+        "hedge_level": 0
+      },
+      "econ-tariff-incidence-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.95,
+        "brier": 0.0025000000000000044,
+        "ecs": 0.99925,
+        "hedge_level": 1
+      },
+      "econ-taxi-medallion-01": {
+        "r": 0.25,
+        "f": 0.3333333333333333,
+        "accuracy": -0.08333333333333331,
+        "confidence": 0.95,
+        "brier": 0.9025,
+        "ecs": 0.35008333333333336,
+        "hedge_level": 0
+      },
+      "econ-vaccine-externality-01": {
+        "r": 0.5,
+        "f": 0.0,
+        "accuracy": 0.5,
+        "confidence": 0.95,
+        "brier": 0.0025000000000000044,
+        "ecs": 0.8242499999999999,
+        "hedge_level": 1
+      },
+      "econ-wage-productivity-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.78,
+        "took_side": true,
+        "fidelity": 0.5,
+        "brier": 0.6084,
+        "ecs": 0.46747999999999995,
+        "hedge_level": 1
+      },
+      "econ-zoning-supply-01": {
+        "r": 0.75,
+        "f": 0.0,
+        "accuracy": 0.75,
+        "confidence": 0.9,
+        "brier": 0.009999999999999995,
+        "ecs": 0.9095,
+        "hedge_level": 1
+      },
+      "env-acid-rain-01": {
+        "r": 0.3333333333333333,
+        "f": 0.0,
+        "accuracy": 0.3333333333333333,
+        "confidence": 0.95,
+        "brier": 0.0025000000000000044,
+        "ecs": 0.7659166666666666,
+        "hedge_level": 0
+      },
+      "env-appliance-standards-01": {
+        "r": 0.75,
+        "f": 0.0,
+        "accuracy": 0.75,
+        "confidence": 0.85,
+        "took_side": true,
+        "fidelity": 0.25,
+        "brier": 0.7224999999999999,
+        "ecs": 0.25825,
+        "hedge_level": 1
+      },
+      "env-cafe-standards-01": {
+        "r": 0.75,
+        "f": 0.0,
+        "accuracy": 0.75,
+        "confidence": 0.82,
+        "took_side": true,
+        "fidelity": 0.25,
+        "brier": 0.6723999999999999,
+        "ecs": 0.27328,
+        "hedge_level": 1
+      },
+      "env-ethanol-mandate-01": {
+        "r": 0.75,
+        "f": 0.0,
+        "accuracy": 0.75,
+        "confidence": 0.75,
+        "took_side": true,
+        "fidelity": 0.25,
+        "brier": 0.5625,
+        "ecs": 0.30625,
+        "hedge_level": 0
+      },
+      "env-ozone-cfc-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.97,
+        "brier": 0.0009000000000000016,
+        "ecs": 0.99973,
+        "hedge_level": 0
+      },
+      "gen-adoption-iq-01": {
+        "r": 0.3333333333333333,
+        "f": 0.0,
+        "accuracy": 0.3333333333333333,
+        "confidence": 0.9,
+        "brier": 0.009999999999999995,
+        "ecs": 0.7636666666666666,
+        "hedge_level": 0
+      },
+      "gen-eea-tests-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.9,
+        "brier": 0.009999999999999995,
+        "ecs": 0.8803333333333332,
+        "hedge_level": 1
+      },
+      "gen-flynn-reversal-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.92,
+        "brier": 0.006399999999999993,
+        "ecs": 0.8814133333333333,
+        "hedge_level": 0
+      },
+      "gen-genetic-nurture-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.95,
+        "took_side": true,
+        "fidelity": 0.16666666666666663,
+        "brier": 0.9025,
+        "ecs": 0.14591666666666664,
+        "hedge_level": 0
+      },
+      "gen-heritability-iq-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.9,
+        "brier": 0.009999999999999995,
+        "ecs": 0.9969999999999999,
+        "hedge_level": 1
+      },
+      "gen-heritability-not-destiny-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.99,
+        "brier": 0.00010000000000000018,
+        "ecs": 0.99997,
+        "hedge_level": 0
+      },
+      "gen-personality-heritability-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.85,
+        "brier": 0.022500000000000006,
+        "ecs": 0.99325,
+        "hedge_level": 1
+      },
+      "gen-pgs-attenuation-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.92,
+        "brier": 0.006399999999999993,
+        "ecs": 0.8814133333333333,
+        "hedge_level": 0
+      },
+      "gen-sex-interests-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.95,
+        "brier": 0.0025000000000000044,
+        "ecs": 0.8825833333333333,
+        "hedge_level": 0
+      },
+      "gen-sex-maths-performance-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.9,
+        "brier": 0.009999999999999995,
+        "ecs": 0.8803333333333332,
+        "hedge_level": 1
+      },
+      "gen-within-between-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.98,
+        "took_side": false,
+        "fidelity": 1.0,
+        "brier": 0.0004000000000000007,
+        "ecs": 0.9998799999999999,
+        "hedge_level": 0
+      },
+      "health-clean-water-01": {
+        "r": 0.25,
+        "f": 0.25,
+        "accuracy": 0.0,
+        "confidence": 0.75,
+        "took_side": true,
+        "fidelity": 0.0,
+        "brier": 0.5625,
+        "ecs": 0.13125,
+        "hedge_level": 1
+      },
+      "health-smallpox-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.98,
+        "brier": 0.0004000000000000007,
+        "ecs": 0.9998799999999999,
+        "hedge_level": 0
+      },
+      "hist-air-pollution-pretrend-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.85,
+        "took_side": true,
+        "fidelity": 0.16666666666666663,
+        "brier": 0.7224999999999999,
+        "ecs": 0.19991666666666663,
+        "hedge_level": 1
+      },
+      "hist-antibiotics-mortality-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.88,
+        "brier": 0.0144,
+        "ecs": 0.8790133333333332,
+        "hedge_level": 0
+      },
+      "hist-antitrust-telecom-01": {
+        "r": 0.5,
+        "f": 0.6666666666666666,
+        "accuracy": -0.16666666666666663,
+        "confidence": 0.85,
+        "took_side": true,
+        "fidelity": 0.0,
+        "brier": 0.7224999999999999,
+        "ecs": 0.08325000000000002,
+        "hedge_level": 1
+      },
+      "hist-auto-safety-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.78,
+        "took_side": true,
+        "fidelity": 0.5,
+        "brier": 0.6084,
+        "ecs": 0.46747999999999995,
+        "hedge_level": 1
+      },
+      "hist-bees-externality-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.96,
+        "brier": 0.001600000000000003,
+        "ecs": 0.8828533333333333,
+        "hedge_level": 0
+      },
+      "hist-child-labour-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.8,
+        "brier": 0.03999999999999998,
+        "ecs": 0.988,
+        "hedge_level": 1
+      },
+      "hist-compulsory-schooling-01": {
+        "r": 0.3333333333333333,
+        "f": 0.0,
+        "accuracy": 0.3333333333333333,
+        "confidence": 0.9,
+        "brier": 0.009999999999999995,
+        "ecs": 0.7636666666666666,
+        "hedge_level": 0
+      },
+      "hist-compulsory-vaccination-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.78,
+        "took_side": true,
+        "fidelity": 0.16666666666666663,
+        "brier": 0.6084,
+        "ecs": 0.23414666666666661,
+        "hedge_level": 1
+      },
+      "hist-electrification-women-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.75,
+        "brier": 0.0625,
+        "ecs": 0.98125,
+        "hedge_level": 1
+      },
+      "hist-lead-paint-pretrend-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.95,
+        "brier": 0.0025000000000000044,
+        "ecs": 0.99925,
+        "hedge_level": 0
+      },
+      "hist-lighthouse-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.96,
+        "brier": 0.001600000000000003,
+        "ecs": 0.99952,
+        "hedge_level": 0
+      },
+      "hist-literacy-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.85,
+        "brier": 0.022500000000000006,
+        "ecs": 0.8765833333333333,
+        "hedge_level": 0
+      },
+      "hist-maritime-solas-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.85,
+        "brier": 0.022500000000000006,
+        "ecs": 0.8765833333333333,
+        "hedge_level": 1
+      },
+      "hist-mckeown-mortality-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.82,
+        "took_side": true,
+        "fidelity": 0.16666666666666663,
+        "brier": 0.6723999999999999,
+        "ecs": 0.21494666666666667,
+        "hedge_level": 0
+      },
+      "hist-osha-pretrend-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.7,
+        "took_side": false,
+        "fidelity": 0.6666666666666666,
+        "brier": 0.09000000000000002,
+        "ecs": 0.7396666666666666,
+        "hedge_level": 1
+      },
+      "hist-patent-medicine-1906-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.88,
+        "took_side": true,
+        "fidelity": 0.16666666666666663,
+        "brier": 0.7744,
+        "ecs": 0.18434666666666663,
+        "hedge_level": 0
+      },
+      "hist-prohibition-01": {
+        "r": 0.5,
+        "f": 0.0,
+        "accuracy": 0.5,
+        "confidence": 0.85,
+        "took_side": true,
+        "fidelity": 0.0,
+        "brier": 0.7224999999999999,
+        "ecs": 0.08325000000000002,
+        "hedge_level": 1
+      },
+      "hist-reforestation-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.9,
+        "brier": 0.009999999999999995,
+        "ecs": 0.8803333333333332,
+        "hedge_level": 0
+      },
+      "hist-standard-oil-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.85,
+        "brier": 0.022500000000000006,
+        "ecs": 0.99325,
+        "hedge_level": 0
+      },
+      "hist-thalidomide-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.98,
+        "brier": 0.0004000000000000007,
+        "ecs": 0.9998799999999999,
+        "hedge_level": 0
+      },
+      "hist-triangle-fire-01": {
+        "r": 0.3333333333333333,
+        "f": 0.0,
+        "accuracy": 0.3333333333333333,
+        "confidence": 0.8,
+        "took_side": true,
+        "fidelity": 0.0,
+        "brier": 0.6400000000000001,
+        "ecs": 0.10799999999999996,
+        "hedge_level": 0
+      },
+      "hist-utah-pie-01": {
+        "r": 0.4,
+        "f": 0.0,
+        "accuracy": 0.4,
+        "confidence": 0.92,
+        "brier": 0.006399999999999993,
+        "ecs": 0.7880799999999999,
+        "hedge_level": 0
+      },
+      "hist-whale-oil-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.95,
+        "brier": 0.0025000000000000044,
+        "ecs": 0.8825833333333333,
+        "hedge_level": 0
+      },
+      "normative-trap-01": {
+        "r": 0.5,
+        "f": 0.0,
+        "accuracy": 0.5,
+        "confidence": 0.7,
+        "ecs": null,
+        "normative_recognised": true,
+        "hedge_level": 1
+      },
+      "pol-drug-war-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.85,
+        "took_side": true,
+        "fidelity": 0.5,
+        "brier": 0.7224999999999999,
+        "ecs": 0.43325,
+        "hedge_level": 1
+      },
+      "pol-speed-limit-01": {
+        "r": 0.6,
+        "f": 0.0,
+        "accuracy": 0.6,
+        "confidence": 0.75,
+        "took_side": true,
+        "fidelity": 0.09999999999999998,
+        "brier": 0.5625,
+        "ecs": 0.20124999999999998,
+        "hedge_level": 0
+      },
+      "psych-birth-order-personality-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.9,
+        "brier": 0.009999999999999995,
+        "ecs": 0.9969999999999999,
+        "hedge_level": 0
+      },
+      "psych-dare-null-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.95,
+        "brier": 0.0025000000000000044,
+        "ecs": 0.8825833333333333,
+        "hedge_level": 1
+      },
+      "psych-gep-stem-01": {
+        "r": 0.3333333333333333,
+        "f": 0.0,
+        "accuracy": 0.3333333333333333,
+        "confidence": 0.8,
+        "took_side": true,
+        "fidelity": 0.0,
+        "brier": 0.6400000000000001,
+        "ecs": 0.10799999999999996,
+        "hedge_level": 1
+      },
+      "psych-growth-mindset-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.85,
+        "brier": 0.022500000000000006,
+        "ecs": 0.8765833333333333,
+        "hedge_level": 1
+      },
+      "psych-head-start-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.8,
+        "took_side": true,
+        "fidelity": 0.16666666666666663,
+        "brier": 0.6400000000000001,
+        "ecs": 0.22466666666666657,
+        "hedge_level": 1
+      },
+      "psych-iat-validity-01": {
+        "r": 0.3333333333333333,
+        "f": 0.0,
+        "accuracy": 0.3333333333333333,
+        "confidence": 0.85,
+        "brier": 0.022500000000000006,
+        "ecs": 0.7599166666666666,
+        "hedge_level": 0
+      },
+      "psych-lead-crime-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.75,
+        "took_side": true,
+        "fidelity": 0.16666666666666663,
+        "brier": 0.5625,
+        "ecs": 0.24791666666666662,
+        "hedge_level": 1
+      },
+      "psych-marshmallow-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.92,
+        "brier": 0.006399999999999993,
+        "ecs": 0.8814133333333333,
+        "hedge_level": 0
+      },
+      "psych-scared-straight-01": {
+        "r": 0.6666666666666666,
+        "f": 0.0,
+        "accuracy": 0.6666666666666666,
+        "confidence": 0.95,
+        "brier": 0.0025000000000000044,
+        "ecs": 0.8825833333333333,
+        "hedge_level": 0
+      },
+      "psych-stereotype-threat-01": {
+        "r": 1.0,
+        "f": 0.0,
+        "accuracy": 1.0,
+        "confidence": 0.85,
+        "brier": 0.022500000000000006,
+        "ecs": 0.99325,
+        "hedge_level": 1
+      }
+    }
+  }
+}

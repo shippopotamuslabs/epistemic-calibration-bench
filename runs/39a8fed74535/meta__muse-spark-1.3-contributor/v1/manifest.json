@@ -1,0 +1,14 @@
+{
+  "model_requested": "meta/muse-spark-1.3-contributor",
+  "pool_path": "pool-twins-block.jsonl",
+  "pool_sha256": "39a8fed74535e8e308bf44650d3c94d5abbb478cefd5b638a8df01b56f472ac1",
+  "prompt_version": "v1",
+  "temperature": 0.0,
+  "subject_max_tokens": 60000,
+  "conditions": [
+    "neutral_conf"
+  ],
+  "started_at": "2026-10-15T23:13:12.781025+00:00",
+  "model_returned": "meta/muse-spark-1.3-contributor",
+  "updated_at": "2026-10-15T23:14:37.203358+00:00"
+}

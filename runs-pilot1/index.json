@@ -1,0 +1,26 @@
+{
+  "29ef3c03d791:anthropic/claude-haiku-5.5:v1": {
+    "run_dir": "/home/hatch/workspace/epistemic-calibration-bench/runs/29ef3c03d791/anthropic__claude-haiku-5.5/v1",
+    "answers": 10,
+    "expected": 10,
+    "errors": 1,
+    "complete": false,
+    "updated_at": "2026-10-15T18:19:20.891705+00:00"
+  },
+  "29ef3c03d791:x-ai/grok-4.7:v1": {
+    "run_dir": "/home/hatch/workspace/epistemic-calibration-bench/runs/29ef3c03d791/x-ai__grok-4.7/v1",
+    "answers": 10,
+    "expected": 10,
+    "errors": 0,
+    "complete": true,
+    "updated_at": "2026-10-15T18:19:46.047891+00:00"
+  },
+  "29ef3c03d791:meta/muse-spark-1.3-contributor:v1": {
+    "run_dir": "/home/hatch/workspace/epistemic-calibration-bench/runs/29ef3c03d791/meta__muse-spark-1.3-contributor/v1",
+    "answers": 10,
+    "expected": 10,
+    "errors": 0,
+    "complete": true,
+    "updated_at": "2026-10-15T18:20:39.562816+00:00"
+  }
+}
