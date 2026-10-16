@@ -1,0 +1,14 @@
+{
+  "model_requested": "openai/gpt-6-luna",
+  "pool_path": "pool-v1.2-judgment.jsonl",
+  "pool_sha256": "8f29c48b19a856a010e3e86cf36252faa746f096512b7964b4aba4e6ae6e2d18",
+  "prompt_version": "v1",
+  "temperature": 0.0,
+  "subject_max_tokens": 60000,
+  "conditions": [
+    "neutral_conf"
+  ],
+  "started_at": "2026-10-16T21:14:13.524791+00:00",
+  "model_returned": "openai/gpt-6-luna",
+  "updated_at": "2026-10-16T21:15:30.062071+00:00"
+}
