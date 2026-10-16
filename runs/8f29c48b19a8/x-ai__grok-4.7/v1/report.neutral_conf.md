@@ -1,6 +1,6 @@
 # Benchmark report - x-ai/grok-4.7
 
-Condition: neutral_conf - Scoring v1.1 - Pool SHA-256: 8f29c48b19a856a0...
+Condition: neutral_conf - Scoring v1.3 - Pool SHA-256: 8f29c48b19a856a0...
 
 - **ECS: 56.47** (n=60 items)
 - **DBI (econ axis): 0.125** (95% CI [0.0, 0.25], permutation p=1.0, n=2 directional items; negative = errors skew interventionist, positive = skew market)
