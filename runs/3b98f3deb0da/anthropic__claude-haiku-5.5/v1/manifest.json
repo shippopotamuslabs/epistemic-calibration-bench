@@ -1,0 +1,14 @@
+{
+  "model_requested": "anthropic/claude-haiku-5.5",
+  "pool_path": "pool-v1.3-candidate.jsonl",
+  "pool_sha256": "3b98f3deb0daef73edf457ed71d13ddeb71264377deee4515c2d5af21e02a946",
+  "prompt_version": "v1",
+  "temperature": 0.0,
+  "subject_max_tokens": 60000,
+  "conditions": [
+    "neutral_conf"
+  ],
+  "started_at": "2026-10-16T22:14:32.021523+00:00",
+  "model_returned": "anthropic/claude-haiku-5.5",
+  "updated_at": "2026-10-16T22:15:24.183842+00:00"
+}
