@@ -1,6 +1,6 @@
 # Benchmark report - anthropic/claude-haiku-5.5
 
-Condition: neutral_conf - Scoring v1.1 - Pool SHA-256: 8f29c48b19a856a0...
+Condition: neutral_conf - Scoring v1.3 - Pool SHA-256: 8f29c48b19a856a0...
 
 - **ECS: 68.67** (n=60 items)
 - **DBI (econ axis): 0.0625** (95% CI [0.0, 0.125], permutation p=1.0, n=2 directional items; negative = errors skew interventionist, positive = skew market)

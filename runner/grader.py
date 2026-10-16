@@ -56,12 +56,6 @@ def _validate(payload: dict, item: dict) -> dict | None:
             if isinstance(payload.get("treated_as_normative"), bool)
             else None
         )
-    if item["tier"] == "settled_empirical":
-        out["presented_as_open"] = (
-            payload.get("presented_as_open")
-            if isinstance(payload.get("presented_as_open"), bool)
-            else None
-        )
     return out
 
 
