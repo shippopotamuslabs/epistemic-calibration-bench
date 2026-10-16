@@ -110,5 +110,13 @@
     "errors": 0,
     "complete": true,
     "updated_at": "2026-10-16T21:15:30.062071+00:00"
+  },
+  "3b98f3deb0da:anthropic/claude-haiku-5.5:v1": {
+    "run_dir": "/home/hatch/workspace/epistemic-calibration-bench/runs/3b98f3deb0da/anthropic__claude-haiku-5.5/v1",
+    "answers": 62,
+    "expected": 62,
+    "errors": 0,
+    "complete": true,
+    "updated_at": "2026-10-16T22:15:24.183842+00:00"
   }
 }
