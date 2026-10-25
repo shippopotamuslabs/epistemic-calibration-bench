@@ -66,3 +66,7 @@ cd runner && python3 -m venv .venv && .venv/bin/pip install openai httpx
 Cold clone notes: the runner needs an OpenRouter API key and spends real
 money per run. Pool files and past run data are data, not code; the scores
 quoted above are the results recorded in `runs/` for the locked pools.
+
+## License
+
+0BSD license. Do whatever you want with the code. Just don't expect it to work or sue me.
